@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "id": "portfolio-dashboard",
+      "displayName": "AI Portfolio Dashboard",
+      "description": "Executive project status surface powered by GitHub, Jira, and AI business-value analysis.",
+      "statusOverride": "development",
+      "private": false,
+      "productionUrl": "https://example.com/dashboard",
+      "github": {
+        "owner": "your-github-user",
+        "repo": "your-dashboard-repo",
+        "defaultBranch": "main",
+        "versionSource": "release"
+      },
+      "jiraProjectKey": "PORT"
+    }
+  ]
+}

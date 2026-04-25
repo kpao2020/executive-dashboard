@@ -1,0 +1,16 @@
+{
+  "name": "ai-portfolio-project-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build-static.mjs",
+    "preview": "node scripts/serve.mjs dist 4173",
+    "validate": "node scripts/validate-data.mjs",
+    "typecheck": "node scripts/validate-data.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "lint": "node scripts/validate-data.mjs",
+    "update:data": "node scripts/update-dashboard-data.mjs"
+  }
+}
